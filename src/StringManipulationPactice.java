@@ -32,6 +32,28 @@ public class StringManipulationPactice {
 		System.out.println(name.toLowerCase());
 		//Original will be the same value
 		System.out.println(name);
+		
+		//Demonstrating replace()
+		String somethingOrOther = "I am finding it hard to get to Cruising Altitude today";
+		
+		String someOtherThing = somethingOrOther.replace("i", "Z");
+		
+		System.out.println(somethingOrOther);
+		System.out.println(someOtherThing);
+		
+		//.length()
+		System.out.println(somethingOrOther.length());
+		
+		//.substring()
+		
+		String numbers = "0123456789";
+		
+		// Substring from 2 to end
+		System.out.println(numbers.substring(2));
+		//Substring 2 to 7
+		System.out.println(numbers.substring(2,8));
+		//index to high
+		System.out.println(numbers.substring(2,12));
 	}
 
 }
